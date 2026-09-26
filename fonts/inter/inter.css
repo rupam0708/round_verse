@@ -1,0 +1,38 @@
+/* Inter Font - Self-hosted with Subresource Integrity */
+/* Generated from Inter v3.19 */
+
+/* Inter Regular 400 */
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./Inter-Regular.woff2') format('woff2');
+}
+
+/* Inter Medium 500 */
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url('./Inter-Medium.woff2') format('woff2');
+}
+
+/* Inter SemiBold 600 */
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('./Inter-SemiBold.woff2') format('woff2');
+}
+
+/* Inter Bold 700 */
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('./Inter-Bold.woff2') format('woff2');
+}
