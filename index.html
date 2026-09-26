@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RoundVerse — AI-powered interview preparation platform. Practice realistic mock interviews, get instant feedback, and level up your skills.">
+  <meta name="theme-color" content="#6366F1">
+  <title>RoundVerse — AI Interview Preparation Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="logo" aria-label="RoundVerse Home">
+        <svg class="logo-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+          <path d="M16 6v12l6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">RoundVerse</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="https://app.roundverse.rupamkarmakar.me" class="btn btn-primary nav-cta" target="_blank" rel="noopener">Launch App</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="hero-badge">New: AI Persona Interviews</span>
+          <h1 id="hero-title" class="hero-title">
+            Master Your Interviews with <span class="highlight">AI-Powered Practice</span>
+          </h1>
+          <p class="hero-description">
+            Realistic mock interviews, instant AI feedback, and personalized coaching.
+            Practice with industry-specific personas and track your progress over time.
+          </p>
+          <div class="hero-actions">
+            <a href="https://app.roundverse.rupamkarmakar.me" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+              Start Free Practice
+            </a>
+            <a href="#features" class="btn btn-secondary btn-lg">Explore Features</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-value">50+</span>
+              <span class="stat-label">Interview Personas</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">Real-time</span>
+              <span class="stat-label">AI Feedback</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">Unlimited</span>
+              <span class="stat-label">Practice Sessions</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mock-interface">
+            <div class="mock-header">
+              <div class="mock-dots"><span></span><span></span><span></span></div>
+              <div class="mock-url">roundverse.app/interview</div>
+            </div>
+            <div class="mock-chat">
+              <div class="message interviewer">
+                <div class="avatar">AI</div>
+                <div class="bubble">Tell me about a challenging project you led.</div>
+              </div>
+              <div class="message user">
+                <div class="bubble">I led a migration from monolith to microservices...</div>
+                <div class="avatar">You</div>
+              </div>
+              <div class="message interviewer">
+                <div class="avatar">AI</div>
+                <div class="bubble">Great. What was the biggest technical risk?</div>
+              </div>
+              <div class="feedback-card">
+                <span class="feedback-badge">Feedback Ready</span>
+                <div class="feedback-items">
+                  <span>✓ STAR structure used</span>
+                  <span>✓ Technical depth shown</span>
+                  <span>→ Add metrics for impact</span>
+                </div>
+              </div>
+            </div>
+            <div class="mock-input">
+              <input type="text" placeholder="Type your response..." disabled>
+              <button disabled>Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features" aria-labelledby="features-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="features-title">Built for Serious Preparation</h2>
+          <p>Every feature designed to move you closer to an offer.</p>
+        </header>
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>AI Interview Personas</h3>
+            <p>Practice with specialized personas — Senior Engineer, Hiring Manager, System Design Expert, Behavioral Coach — each with distinct questioning styles and evaluation criteria.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3>Instant AI Feedback</h3>
+            <p>Get real-time analysis on structure, technical depth, communication clarity, and STAR method usage. Know exactly where to improve after every answer.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+            </div>
+            <h3>Progress Tracking</h3>
+            <p>Visualize your improvement over time with session history, skill radar charts, and benchmark comparisons against target role requirements.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+            </div>
+            <h3>Custom Session Packs</h3>
+            <p>Choose from curated interview packs — System Design, Behavioral, Coding, Domain-Specific — or build your own focused practice plan.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Peer & Mentor Reviews</h3>
+            <p>Share recorded sessions with peers or mentors for additional human feedback. Built-in annotation and timestamped comments.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2"/><path d="M12 21v2"/><path d="M4.22 4.22l1.42 1.42"/><path d="M18.36 18.36l1.42 1.42"/><path d="M1 12h2"/><path d="M21 12h2"/><path d="M4.22 19.78l1.42-1.42"/><path d="M18.36 5.64l1.42-1.42"/></svg>
+            </div>
+            <h3>Subscription Billing</h3>
+            <p>Flexible monthly plans with automatic renewals. Cancel anytime — no long-term commitments, no hidden fees.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="how-title">How It Works</h2>
+          <p>From first practice to confident performance in four steps.</p>
+        </header>
+        <ol class="steps">
+          <li class="step">
+            <span class="step-number">01</span>
+            <div class="step-content">
+              <h3>Choose Your Pack</h3>
+              <p>Select a curated interview pack or build a custom session targeting your weak areas.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-number">02</span>
+            <div class="step-content">
+              <h3>Interview with AI</h3>
+              <p>Engage in a realistic conversation with an AI persona that adapts to your responses.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-number">03</span>
+            <div class="step-content">
+              <h3>Get Instant Feedback</h3>
+              <p>Receive detailed analysis on structure, content, delivery — with specific improvement suggestions.</p>
+            </div>
+          </li>
+          <li class="step">
+            <span class="step-number">04</span>
+            <div class="step-content">
+              <h3>Track & Improve</h3>
+              <p>Review your history, spot trends, and watch your scores climb with each session.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="pricing-title">Simple, Transparent Pricing</h2>
+          <p>Start free. Upgrade when you're ready for unlimited practice.</p>
+        </header>
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <header class="pricing-header">
+              <h3>Free</h3>
+              <p class="pricing-tagline">For occasional practice</p>
+            </header>
+            <div class="pricing-price">
+              <span class="currency">₹</span><span class="amount">0</span><span class="period">/month</span>
+            </div>
+            <ul class="pricing-features">
+              <li>✓ 5 interview sessions/month</li>
+              <li>✓ Basic AI personas</li>
+              <li>✓ Session history (30 days)</li>
+              <li>✓ Basic feedback summary</li>
+              <li>✗ Advanced personas</li>
+              <li>✗ Detailed analytics</li>
+            </ul>
+            <a href="https://app.roundverse.rupamkarmakar.me/auth/register" class="btn btn-secondary btn-block" target="_blank" rel="noopener">Start Free</a>
+          </article>
+          <article class="pricing-card featured">
+            <span class="pricing-badge">Most Popular</span>
+            <header class="pricing-header">
+              <h3>Pro</h3>
+              <p class="pricing-tagline">For serious preparation</p>
+            </header>
+            <div class="pricing-price">
+              <span class="currency">₹</span><span class="amount">299</span><span class="period">/month</span>
+            </div>
+            <ul class="pricing-features">
+              <li>✓ Unlimited sessions</li>
+              <li>✓ All AI personas</li>
+              <li>✓ Full session history</li>
+              <li>✓ Detailed AI feedback & analytics</li>
+              <li>✓ Progress tracking & benchmarks</li>
+              <li>✓ Priority support</li>
+            </ul>
+            <a href="https://app.roundverse.rupamkarmakar.me/auth/register" class="btn btn-primary btn-block" target="_blank" rel="noopener">Upgrade to Pro</a>
+          </article>
+          <article class="pricing-card">
+            <header class="pricing-header">
+              <h3>Teams</h3>
+              <p class="pricing-tagline">For hiring teams & bootcamps</p>
+            </header>
+            <div class="pricing-price">
+              <span class="currency">₹</span><span class="amount">Custom</span>
+            </div>
+            <ul class="pricing-features">
+              <li>✓ Everything in Pro</li>
+              <li>✓ Admin dashboard & analytics</li>
+              <li>✓ Custom interview packs</li>
+              <li>✓ SSO & team management</li>
+              <li>✓ Dedicated support</li>
+              <li>✓ Volume discounts</li>
+            </ul>
+            <a href="mailto:team@roundverse.rupamkarmakar.me" class="btn btn-secondary btn-block">Contact Sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container">
+        <h2 id="cta-title">Ready to Ace Your Next Interview?</h2>
+        <p>Join thousands of candidates practicing with RoundVerse today.</p>
+        <a href="https://app.roundverse.rupamkarmakar.me/auth/register" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Start Free Practice Now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo" aria-label="RoundVerse Home">
+          <svg class="logo-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+            <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+            <path d="M16 6v12l6 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="logo-text">RoundVerse</span>
+        </a>
+        <p>AI-powered interview preparation for developers who want to level up.</p>
+      </div>
+      <nav class="footer-links" aria-label="Product">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="https://app.roundverse.rupamkarmakar.me" target="_blank" rel="noopener">Launch App</a></li>
+          <li><a href="https://app.roundverse.rupamkarmakar.me/docs" target="_blank" rel="noopener">Documentation</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-links" aria-label="Company">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="mailto:hello@roundverse.rupamkarmakar.me">Contact</a></li>
+          <li><a href="https://github.com/rupam0708/round_verse_backend" target="_blank" rel="noopener">GitHub (Backend)</a></li>
+          <li><a href="https://github.com/rupam0708/round_verse_frontend" target="_blank" rel="noopener">GitHub (Frontend)</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-links" aria-label="Legal">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 RoundVerse. Built with care for developers everywhere.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
